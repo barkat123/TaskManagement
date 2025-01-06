@@ -1,0 +1,134 @@
+/* Custom Container Max Width */
+.container {
+    max-width: 1200px; /* You can adjust the max-width to your needs */
+    margin: 0 auto;
+}
+
+/* Form Styling */
+.form-control,
+.form-select,
+textarea.form-control {
+    border-radius: 0.375rem; /* Rounded corners */
+    border: 1px solid #ced4da; /* Subtle border color */
+    padding: 10px 15px; /* Padding for a more spacious look */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus effects */
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+    border-color: #6c757d; /* Slightly darker border when focused */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Focus glow effect */
+}
+
+/* Custom Button Styling */
+.btn {
+    border-radius: 0.375rem; /* Rounded buttons */
+    padding: 10px 20px; /* Spacing inside the button */
+    font-weight: 600; /* Bolder text */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition effects */
+}
+
+.btn:hover,
+.btn:focus {
+    transform: translateY(-2px); /* Small hover effect for buttons */
+}
+
+/* Button Color Customization */
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #005cbf;
+    border-color: #004085;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #c82333;
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #e0a800;
+}
+
+.btn-warning:hover,
+.btn-warning:focus {
+    background-color: #e0a800;
+    border-color: #c69500;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #138496;
+}
+
+.btn-info:hover,
+.btn-info:focus {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Table Styling */
+.table {
+    border-collapse: collapse; /* Ensures proper table spacing */
+}
+
+.table th,
+.table td {
+    padding: 12px 15px; /* More spacious table cells */
+    text-align: left;
+}
+
+.table th {
+    background-color: #f8f9fa; /* Lighter background for table headers */
+    font-weight: 600;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6; /* Light border for the table */
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Striped rows for better readability */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1; /* Hover effect on table rows */
+}
+
+.table td {
+    vertical-align: middle; /* Vertically centers the content in each table cell */
+}
+
+.table-responsive {
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
+}
+
+/* Input Group and Search Form Styling */
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group input {
+    border-right: none;
+}
+
+.input-group button {
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+/* Align the Create New Task Button */
+.text-end {
+    text-align: right;
+}
