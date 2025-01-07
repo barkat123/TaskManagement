@@ -36,6 +36,9 @@ php artisan migrate
 
 php artisan db:seed
 
+**note**
+For database You can also download and import tasks.sql from source code
+
 npm run build
 
 And finally, start the application:
@@ -48,13 +51,13 @@ and visit http://127.0.0.1:8000 to see the application in action.
 
     User:
         
-        Url: /login
-        Email: test@example.com
+        Url: http://127.0.0.1:8000/login
+        Email: user@example.com
         Password: password
 
     Admin:
 
-        Url: /admin/login
+        Url: http://127.0.0.1:8000/admin/login
         Email: admin@example.com
         Password: password    
 
