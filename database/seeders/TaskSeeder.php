@@ -13,9 +13,9 @@ class TaskSeeder extends Seeder
     public function run(): void
     {
         \App\Models\Task::create([
-            'user_id' => 1,  // Admin user
-            'title' => 'Admin Task 1',
-            'description' => 'This is an admin task',
+            'user_id' => 1,  // user
+            'title' => 'Task 1',
+            'description' => 'This is task 1',
             'status' => 'Pending',
             'due_date' => now()->addDays(7),
         ]);

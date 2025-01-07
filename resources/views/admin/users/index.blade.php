@@ -2,7 +2,12 @@
 
 @section('content')
 
-    <div class="flex-1 p-8 overflow-y-auto">            
+    <div class="flex-1 lg:ml-64 p-8 overflow-y-auto">
+        <!-- Navbar for Small Screens -->
+        <div class="lg:hidden bg-blue-800 text-white p-4 flex items-center justify-between">
+            <h2 class="text-lg font-semibold">Admin Panel</h2>
+            @include('admin.layouts.sidebar-toggle-btn')
+        </div>            
         <div class="bg-white shadow-md p-4 mb-6 flex items-center justify-between rounded-md">
             <div class="text-xl font-semibold">Users</div>                
         </div>
