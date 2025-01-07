@@ -41,7 +41,7 @@ npm run build
 And finally, start the application:
 
 php artisan serve
-and visit http://localhost:8000 to see the application in action.
+and visit http://127.0.0.1:8000 to see the application in action.
 
 
 ## Demo login details:
@@ -49,7 +49,7 @@ and visit http://localhost:8000 to see the application in action.
     User:
         
         Url: /login
-        Email: user@example.com
+        Email: test@example.com
         Password: password
 
     Admin:
