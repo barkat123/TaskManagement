@@ -5,7 +5,7 @@ A simple task management app
 Getting Started
 Clone the project repository by running this
 
-git clone https://github.com/codeaamirkalimi/Task-Management-System-Laravel.git
+git clone https://github.com/barkat123/TaskManagement.git
 After cloning, run:
 
 composer install
