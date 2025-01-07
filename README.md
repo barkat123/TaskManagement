@@ -1,11 +1,17 @@
-Task-Management-System-Laravel
-Laravel | Complete Task Management System
-A simple task management app
+# Task Management System - Laravel
 
-Getting Started
-Clone the project repository by running this
+## Overview
+A complete task management system built with Laravel. This simple yet effective app helps manage tasks efficiently.
 
-git clone https://github.com/barkat123/TaskManagement.git
+---
+
+## Getting Started
+
+**Clone the repository**:
+   ```bash
+   git clone https://github.com/barkat123/TaskManagement.git
+   cd TaskManagement
+   
 After cloning, run:
 
 composer install
@@ -15,6 +21,7 @@ Duplicate .env.example and rename it .env
 Then run:
 
 php artisan key:generate
+
 Prerequisites
 Be sure to fill in your database details in your .env file before running the migrations:
 
